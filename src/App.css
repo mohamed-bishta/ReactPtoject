@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.color {
+    background-color: #1B3764;
+    min-height: 100vh;
+}
+
+.color .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.color .content .content-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.color .content .main-img {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.color .content-right {
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content-right nav {
+    display: flex;
+    gap: 15px;
+}
+
+.content-right nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    transition: color 0.3s;
+}
+
+.content-right nav a:hover {
+    color: #006d77;
+}
+
+.content-right .main-button {
+    width: 114px;
+    gap: 10px;
+    background-color: #FFCA42;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.color .program {
+    width: 635px;
+    height: 110px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -2%;
+    color: white;
+    margin: auto auto;
+    margin-top: 10%;
+}
+
+.color .program .main-span span {
+    height: 3px;
+    width: 100px;
+    display: flex;
+    margin: auto auto;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFCA42;
+    top: 30px;
+}
+
+.element .home-img {
+    display: flex;
+    gap: 12px;
+    text-align: center;
+}
+
+.element .home-img .contact img {
+    width: 250px;
+    padding: 20px 0;
+}
+
+.element .home-img .contact h2 {
+    font-family: "Cardo";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.element .home-img .contact p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 34.2px;
+}
+
+.element .home-img .contact .text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.element .home-img .contact .text .one {
+    font-family: Cardo;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22.5px;
+    letter-spacing: 2%;
+    color: #1B3764;
+}
+
+.contact {
+    background-color: #EEE;
+    padding: 20px;
+}
+
+.menu-btn {
+    width: 30px;
+    display: none;
+}
+
+/* //////////////////////////////////////////////////// */
+.info {
+    background-color: #1B3764;
+    padding: 100px 0;
+  }
+ 
+  .info .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+ 
+  .info .content-img .phto {
+    display: flex;
+    gap: 12px;
+  }
+ 
+  .info .content-img .phto .programe h3 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 37.5px;
+    color: white;
+  }
+ 
+  .info .content-img .box-img {
+    display: flex;
+    margin: 18px 0;
+    gap: 12px;
+  }
+ 
+  .info .container .box-content .text {
+    display: flex;
+  }
+ 
+  .info .container .box-content .main-span {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .info .container .box-content h3 {
+    font-family: "Cardo";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: white;
+    margin: 12px 12px;
+  }
+ 
+  .info .container .box-content .main-span span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #FFCA42;
+    margin: 10px;
+  }
+ 
+  .info .container .box-content .text .main-home span {
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 36.9px;
+    color: #B4C7E7;
+  }
+ 
+  .info .cont {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+ 
+  .info .box-content3 h3 {
+    font-family: "Cardo";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: white;
+    margin: 12px 12px;
+  }
+ 
+  .info .box-content3 .cont .one h3 {
+    font-family: "Cardo";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: white;
+    margin: 12px 12px;
+  }
+ 
+  .info .box-content3 .cont div span {
+    font-family: "Cardo";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32.4px;
+    color: white;
+    margin: 12px 12px;
+  }
+ 
+  .info .box-fenished {
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    gap: 12px;
+    color: white;
+    font-size: 18px;
+    line-height: 32.4px;
+  }
+ 
+  .info .container::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 3px;
+    border-bottom: 2px solid #B4C7E7;
+    top: 99%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* //////////////////////////////////////////////767 */
+
+
+@media (max-width: 980px) {
+    .element .home-img {
+        flex-direction: column; 
+    }
+
+    .element .home-img .contact .text {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .element .home-img .contact img {
+        width: 100%;
+        max-width: 100%; 
+    }
+}
+
+@media (min-width: 768px) {
+    .element .home-img {
+        flex-direction: row;
+    }
+
+    .element .home-img .contact .text {
+        flex-direction: row; 
+        justify-content: space-between;
+    }
+}
+/* ////////////// */
+
+@media (max-width: 950px) {
+    .content-right nav {
+      display: none;
+    }
+  
+    .menu-btn {
+      display: block;    
+    }
+  
+    .open-menu {
+      display: block;
+    }
+
+    .content .content-left{
+        display: none;
+    }
+
+    .content-right.nav-active nav {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .main-button{
+        display: none;
+      }
+
+    .close-menu {
+      display: none;
+    }
+  
+    .content-right.nav-active .open-menu {
+      display: none;
+    }
+  
+    .content-right.nav-active .close-menu {
+      display: block;
+    }
+  }
+
+
+ 
