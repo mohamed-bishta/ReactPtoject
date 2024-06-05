@@ -1,14 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Links from "./Links";
-import Content from "./Content";
+import NavPar from "./NavPar";
 
- 
+
 export default function Root() {
     return (
         <>
+            <NavPar />
             <Outlet />
-            {/* <Links /> */}
-            {/* <Content /> */}
         </>
     )
 }

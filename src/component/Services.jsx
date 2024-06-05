@@ -29,9 +29,9 @@ export default function Services() {
               <div class="serv-img">
               <img src={blockImg3} alt="notimg" />
               </div>
-              <div class="serv-img">
+              {/* <div class="serv-img">
               <img src={blockImg5} alt="notimg" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div class="box-content">
