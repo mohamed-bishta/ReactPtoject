@@ -47,6 +47,7 @@ export default function NavPar() {
             </div>
             <div className="content-right">
                 <nav>
+                    <Link to="/Content">Content</Link>
                     <Link to="/Pages">Pages</Link>
                     <Link to="/About">About</Link>
                     <Link to="/Contact">Contact</Link>
