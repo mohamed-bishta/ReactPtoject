@@ -1,55 +1,117 @@
-import blockImg1 from "./img/Photo.png";
-import blockImg2 from "./img/Photo (2).png";
-import blockImg3 from "./img/Photo (1).png";
+import blockImgX1 from "./img/avatar-01.png";
+import blockImgX2 from "./img/avatar-02.png";
+import blockImgX3 from "./img/avatar-03.png";
+import blockImgX4 from "./img/avatar-04.png";
+import blockImgX5 from "./img/avatar-05.png";
+import blockImgX6 from "./img/avatar-06.png";
+
 
 export default function Contact() {
 
   return (
     <>
-      <div className="element">
-        <div className="home-img">
-          <div className="contact">
-            <img src={blockImg1} alt="notimg" />
-            <h2>Significant reading has more info number</h2>
-            <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
-            <div className="text">
-              <div className="one">
-                <p>Read more</p>
-              </div>
-              <div className="one">
-                <p>Author - 23.05.2022</p>
-              </div>
+      <div className="testimonials" id="testimonials">
+        <h2 className="main-title">Testimonials</h2>
+        <div className="container">
+          <div className="box">
+            <img src={blockImgX1} />
+            <h3>Mohamed Farag</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
           </div>
-          <div className="contact">
-            <img src={blockImg2} alt="notimg" />
-            <h2>Significant reading has more info number</h2>
-            <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
-            <div className="text">
-              <div className="one">
-                <p>Read more</p>
-              </div>
-              <div className="one">
-                <p>Author - 23.05.2022</p>
-              </div>
+          <div className="box">
+            <img src={blockImgX2} />
+            <h3>Mohamed Ibrahim</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
           </div>
-          <div className="contact">
-            <img src={blockImg3} alt="notimg" />
-            <h2>Significant reading has more info number</h2>
-            <p>The point of using Lorem Ipsum hiter of that using making it look like others readable will get end.</p>
-            <div className="text">
-              <div className="one">
-                <p>Read more</p>
-              </div>
-              <div className="one">
-                <p>Author - 23.05.2022</p>
-              </div>
+          <div className="box">
+            <img src={blockImgX3} />
+            <h3>Shady Nabil</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="far fa-star"></i>
             </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
+          </div>
+          <div className="box">
+            <img src={blockImgX4} />
+            <h3>Amr Hendawy</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
+          </div>
+          <div className="box">
+            <img src={blockImgX5} />
+            <h3>Sherief Ashraf</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
+          </div>
+          <div className="box">
+            <img src={blockImgX6} />
+            <h3>Osama Mohamed</h3>
+            <span className="title">Full Stack Developer</span>
+            <div className="rate">
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="filled fas fa-star"></i>
+              <i className="far fa-star"></i>
+              <i className="far fa-star"></i>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+              quaerat ducimus
+            </p>
           </div>
         </div>
       </div>
-      
+
     </>
   )
 }

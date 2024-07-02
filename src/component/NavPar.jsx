@@ -23,6 +23,7 @@ export default function NavPar() {
         return () => {
             menuBtn.removeEventListener('click', toggleNav);
         };
+        
     }, []);
 
     return (
@@ -52,7 +53,6 @@ export default function NavPar() {
                     <Link to="/About">About</Link>
                     <Link to="/Contact">Contact</Link>
                     <Link to="/Services">Services</Link>
-                    <button className="main-button">Order Today</button>
                 </nav>
             </div>
         </div>
