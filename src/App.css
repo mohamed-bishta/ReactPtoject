@@ -382,7 +382,7 @@ ul {
 /* Start Footer */
 .footerr {
   padding: 30px;
-  background-image: url("./img/subscribe.jpg");
+  background-image: url("../public/img/subscribe.jpg");
   background-size: cover;
   position: relative;
   color: white;

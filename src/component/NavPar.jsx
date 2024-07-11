@@ -51,8 +51,8 @@ export default function NavPar() {
                     <Link to="/Content">Content</Link>
                     <Link to="/Pages">Pages</Link>
                     <Link to="/About">About</Link>
-                    <Link to="/Contact">Contact</Link>
-                    <Link to="/Services">Services</Link>
+                    <Link to="/Contact">User</Link>
+                    <Link to="/Services">Contact</Link>
                 </nav>
             </div>
         </div>
